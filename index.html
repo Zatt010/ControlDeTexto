@@ -1,25 +1,50 @@
-<html lang="es">
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Guia De HTML</title>
-    <link rel="stylesheet" href="bordes.css"> <!-- hace bordes  -->
-
+    <title>Document</title>
+    <style>
+        table th, table td{
+            border: 1px solid rgb(0, 0, 0);
+        }
+    </style>
 </head>
 <body>
-    <h1> ESTE ES UN CONTROL DE TEXTO</h1>
-    <h1>titulo</h1>
-    <p>Texto de párrafo, también denominado "bloque de texto",</p><p>generalmente está reservado a cuerpos de texto más grandes que tienen más requisitos de formato. Por ejemplo, puede utilizar texto de párrafo al crear folletos y boletines informativos, catálogos u otros documentos con gran cantidad de text</p>
-    <h2>titulo</h2>
-    <p>Texto de párrafo, también denominado "bloque de texto",</p><div> generalmente está reservado a cuerpos de texto más grandes que tienen más requisitos de formato. Por ejemplo, puede utilizar texto de párrafo al crear folletos y boletines informativos, catálogos u otros documentos con gran cantidad de text</div>
-    <h3>titulo</h3>
-    <h1> <p> adusiiisiuuuuuuuuuuuuuuuuuuuuuuuuuuuuu<wbr>uuuuuuuuuuuuuuuuuuuaddddddddddddddddddddddddddddddkhjccccccccccccccccccccccd</p>
-        <hr><p> adusiiisiuuuuuuuuuuuuuuuuuuuuuuuuuuu<wbr>uuuuuuuuuuuuuuuuuuuuuaddddddddddddddddddddddddddddddkhjccccccccccccccccccccccd</p></h1>
-    <h4>titulo</h4>
-    <div>audjujsijuijiujiu<sup>jdddddddddddddd</sup></div>
-    <br>siajda<sub>aaaaaaaaaaaaaaaa</sub>
-    <h5>titulo</h5>
-    <h6>titulo</h6>
+    <table>
+        <caption>prueba </caption>
+        <thead>
+            <tr>
+                <td colspan="2">A</td>
+                <td colspan="2">D</td>
+              </tr>
+              <tr>
+                <td>B</td>
+                <td>C</td>
+                <td>E</td>
+                <td>F</td>
+              </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">d1</td>
+                <td>d2</td>
+                <td rowspan="2">d4</td>
+                <td>d5</td>
+            </tr>
+            <tr>
+                <td>d3</td>
+                <td>d6</td>
+            </tr>
+        
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">TOTAL</td>
+                <td>100</td>
+            </tr>
+        </tfoot>
+    </table>
 </body>
 </html>
